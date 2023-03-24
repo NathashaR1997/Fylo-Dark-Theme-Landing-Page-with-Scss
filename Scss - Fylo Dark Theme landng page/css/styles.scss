@@ -1,0 +1,21 @@
+//Global
+@import "variables";
+@import "global";
+@import "mixins";
+
+//section containers
+@import "maincontainer";
+@import "section";
+@import "button";
+@import "background";
+@import "stayproductive";
+@import "_earlyaccess";
+@import "footer";
+
+// 01) maincontainer:- body
+// 02) secton:- setion divider section
+// 03) button:- styles for buttons throughout the design 
+// 04) background:- background for all section files
+// 05) stay productive:- styles for stay productive section
+// 06) early access:- styles for early access section
+// 07) footer:- styles for footer

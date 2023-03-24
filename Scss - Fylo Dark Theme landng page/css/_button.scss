@@ -1,0 +1,37 @@
+.button-started {
+    width: 220px;
+    height: 40px;
+    background: linear-gradient(180deg, #4DC5D3 0%, #45B6D2 100%);
+    border-radius: 20px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include desktop {
+        width: 284px;
+        height: 60px;
+        border-radius: 30px;
+    }
+
+}
+
+.get-started {
+    height: 44px;
+    width: 100%;
+    border-radius: 30px;
+    background: linear-gradient(180deg, #4DC5D3 0%, #45B6D2 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    @include desktop {
+        height: 44px;
+        width: 270px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 10px;
+    }
+}

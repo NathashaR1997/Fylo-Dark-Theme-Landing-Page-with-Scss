@@ -1,0 +1,12 @@
+.section-curvy-bg {
+    position: absolute;
+    top: 320px;
+
+    @include desktop {
+        top: 700px
+    }
+
+    img {
+        width: 100%;
+    }
+}
